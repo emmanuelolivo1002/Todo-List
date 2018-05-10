@@ -17,7 +17,7 @@ $("input[type='text']").keypress(function functionName(event) {
     var todoText = $(this).val();
     $(this).val("");
     if (todoText != "") {
-      $("ul").append("<li><span>X</span> " + todoText + "</li>");
+      $("ul").append("<li><span><i class='far fa-trash-alt'></i></span> " + todoText + "</li>");
     }
   }
 
