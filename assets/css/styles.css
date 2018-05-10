@@ -28,6 +28,7 @@ input {
   padding: 13px 13px 13px 20px;
   box-sizing: border-box;
   border: none;
+  display: none;
 }
 
 input:focus {
